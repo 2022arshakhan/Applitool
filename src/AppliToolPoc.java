@@ -16,6 +16,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import com.applitools.eyes.config.Configuration;
 import com.applitools.eyes.selenium.ClassicRunner;
 import com.applitools.eyes.selenium.Eyes;
 import com.applitools.eyes.selenium.fluent.Target;
@@ -59,10 +60,10 @@ public class AppliToolPoc extends TestBaseSetup {
 			e.printStackTrace();
 			
 		}
-	/*	Configuration conf = eyes.getConfiguration();
+		Configuration conf = eyes.getConfiguration();
 		eyes.setApiKey("kpxrEvIyDUSpt6EXb2o101fsJPA166UL97rZyWuF3l5O108I110");
 		eyes.setConfiguration(conf);
-		*/
+		
 	}
 
 
